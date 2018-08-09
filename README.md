@@ -9,6 +9,7 @@
 * You can modify the test.js script to test different behavior depending on what is passed with the request body.
 
 ### To do
+* Create REST API documentation
 * Containerize the REST API in Docker.
 * Convert test(s) to Mocha/Chai.
 * Build a UI application in React, Angular, etc. which executes the API request.
