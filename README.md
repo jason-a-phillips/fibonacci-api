@@ -1,5 +1,5 @@
 # fibonacci-api
-##API designed to provide the Fibonacci sequence which arrives at the given input
+## API designed to provide the Fibonacci sequence which arrives at the given input
 
 ### Instructions
 * Install Node.js and NPM.
