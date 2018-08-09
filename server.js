@@ -17,7 +17,7 @@ const xssFilter = require('x-xss-protection'); // No XSS allowed here buddy
 const limiter = new RateLimit({
   windowMs: 5 * 60 * 1000, // 5 minutes
   max: 500,
-  delayMs: 10, // disable delaying - full speed until the max limit is reached
+  delayMs: 10, 
 });
 
 App.use(xssFilter());
