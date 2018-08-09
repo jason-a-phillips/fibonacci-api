@@ -12,4 +12,4 @@
 * Create REST API documentation.
 * Containerize the REST API in Docker.
 * Convert test(s) to Mocha/Chai.
-* Build a UI application in React, Angular, etc. which executes the API request.
+* Build a UI application in React, Angular, etc. which executes the request against the API.
