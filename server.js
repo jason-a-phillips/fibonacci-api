@@ -57,9 +57,9 @@ Router.get('/fibonacci', (req, res) => {
             break;
         }
       }
-      return res.status(200).json({ n: n, fibonaccis: fibs});
+      return res.status(200).json({ n: n, fibonaccis: fibs });
     } else {
-      return res.status(422).json({ error:'Input invalid. Input must be a non-negative integer less than 100,000.' });
+      return res.status(422).json({ error: 'Input invalid. Input must be a non-negative integer less than 100,000.' });
     }
 });
 
