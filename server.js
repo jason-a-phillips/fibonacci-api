@@ -32,7 +32,7 @@ App.use(Bodyparser.urlencoded({ extended: true }));
 App.use(Bodyparser.json());
 App.use(compression({ threshold: 0 }));
 
-// Insert our route mapping middleware here. In a more complex app, this should be refactored into a separate module(s)
+// Insert our route mapping middleware here. In a more complex app, this should be refactored into separate module(s)
 Router.use((req, res, next) => {
   // We are going to allow any origin for CORS
   // and only the GET http verb
