@@ -1,0 +1,33 @@
+{
+  "name": "fibonacci-api",
+  "version": "1.0.0",
+  "description": "API designed to provide the Fibonacci sequence which arrives at the given input",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js",
+    "build-docker": "to do"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jason-a-phillips/fibonacci-api.git"
+  },
+  "author": "Jason Phillips jason.a.phillips@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jason-a-phillips/fibonacci-api/issues"
+  },
+  "homepage": "https://github.com/jason-a-phillips/fibonacci-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "dont-sniff-mimetype": "^1.0.0",
+    "express": "^4.16.3",
+    "express-rate-limit": "^2.12.2",
+    "helmet": "^3.13.0",
+    "hide-powered-by": "^1.0.0",
+    "hsts": "^2.1.0",
+    "superagent": "^3.8.3",
+    "x-xss-protection": "^1.1.0"
+  }
+}
