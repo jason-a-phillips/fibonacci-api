@@ -6,7 +6,7 @@
 * In a terminal, type 'npm install' in the project directory to install all package dependencies.
 * To run the REST API, in a terminal, type 'npm start' in the project directory. The REST API should now be running locally at http://localhost:9000.
 * To execute a REST request against the API, in a separate terminal, type 'npm test' in the project directory.
-* You can modify the test.js script to test different behavior depending on what is passed with the request body.
+* You can modify the test.js script to test different behavior depending on what is passed within the request body.
 
 ### To do
 * Create REST API documentation.
